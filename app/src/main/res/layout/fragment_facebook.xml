@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FacebookFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Facebook Login"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/hkgrotesk_bold"
+        android:textSize="16dp"
+        android:padding="12dp"
+        android:background="@color/com_facebook_blue"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="12dp">
+        <RelativeLayout
+            android:id="@+id/main_relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/tick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_round_check_circle_24"
+                android:layout_gravity="center"
+                android:layout_marginRight="-4dp"
+                android:layout_toRightOf="@id/profile_image"
+                app:tint="@color/green" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/colorAccent"
+            android:src="@drawable/student"/>
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="User Name"
+            android:maxWidth="200dp"
+            android:layout_below="@id/profile_image"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:fontFamily="@font/hkgrotesk_bold"
+            android:textColor="@color/text_primary"/>
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="useremail@gmail.com"
+            android:maxWidth="200dp"
+            android:layout_below="@id/userName"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textColor="@color/text_secondary"/>
+
+
+
+        </RelativeLayout>
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/main_relative"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp" />
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

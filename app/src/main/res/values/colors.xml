@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#F089BE</color>
+
+    <color name="text_primary">#3E5470</color>
+    <color name="text_secondary">#93ACD7</color>
+
+    <color name="main_back">#F2F7FD</color>
+    <color name="main_back_dark">#7697C1</color>
+
+    <color name="linkedin_theme_color">#0966C2</color>
+
+    <color name="green">#18AA1F</color>
+</resources>

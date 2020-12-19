@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_back"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/text_primary"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:layout_marginLeft="12dp"
+        android:fontFamily="@font/hkgrotesk_black"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bubbleTabBar"
+        android:layout_below="@id/header"
+        app:cardCornerRadius="16dp"
+        android:fadingEdgeLength="12dp"
+        app:cardElevation="16dp"
+        android:outlineSpotShadowColor="@color/main_back_dark"
+        android:outlineAmbientShadowColor="@color/main_back_dark"
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_margin="16dp">
+
+       <FrameLayout
+           android:id="@+id/container"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <com.fxn.BubbleTabBar
+        android:id="@+id/bubbleTabBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottombar_back"
+        android:elevation="16dp"
+        android:padding="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentBottom="true"
+        app:bubbletab_menuResource="@menu/list"
+        app:bubbletab_disabled_icon_color="@color/text_secondary"
+        app:bubbletab_horizontal_padding="16dp"
+        app:bubbletab_icon_size="20dp"
+        app:bubbletab_title_size="16sp"
+        app:bubbletab_icon_padding="12sp"
+        app:bubbletab_custom_font="@font/hkgrotesk_bold"
+        app:bubbletab_vertical_padding="10dp">
+    </com.fxn.BubbleTabBar>
+
+</RelativeLayout>

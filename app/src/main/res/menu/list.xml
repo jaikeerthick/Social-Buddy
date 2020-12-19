@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/intro_menu"
+        android:icon="@drawable/ic_home"
+        android:title="Welcome"
+        android:checked="true"
+        android:iconTint="@color/text_primary"
+        />
+
+    <item
+        android:id="@+id/linkedin_menu"
+        android:icon="@drawable/ic_linkedin_new"
+        android:title="Linkedin"
+        android:iconTint="@color/text_primary"/>
+    <item
+        android:id="@+id/facebook_menu"
+        android:icon="@drawable/ic_facebook"
+        android:title="Facebook"
+        android:iconTint="@color/text_primary"
+        />
+
+</menu>

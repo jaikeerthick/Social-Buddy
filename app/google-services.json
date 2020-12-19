@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "341333357692",
+    "project_id": "social-buddy-8ca79",
+    "storage_bucket": "social-buddy-8ca79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341333357692:android:05b7cc3a367beb2e6245f9",
+        "android_client_info": {
+          "package_name": "com.jaikeerthick.socialbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341333357692-b0ejqjbnij3n4r950htlbeqdko2d556g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh0nf8s8C1VDdpg5RAKxdtuDqZtHf5YZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341333357692-b0ejqjbnij3n4r950htlbeqdko2d556g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
