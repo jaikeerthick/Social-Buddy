@@ -1,4 +1,6 @@
-# Social-Buddy
+# Social-Buddy 🎉
+
+## LinkedIn and Facebook API Integration ( Easy way )
 
 - A mobile app, where user can login through LinkedIn and
 Facebook (both).
