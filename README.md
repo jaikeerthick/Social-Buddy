@@ -9,3 +9,5 @@ etc.).
 
 ### Developed for #GRIPDEC20
 
+![promo image](https://github.com/jaikeerthick/Social-Buddy/blob/master/promoscreenshot.png?raw=true)
+
